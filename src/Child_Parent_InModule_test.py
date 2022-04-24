@@ -1,5 +1,5 @@
 import pytest
-from ParentChildSingleFile import Child
+from Child_Parent_InModule import Child
 
 
 @pytest.mark.skip

@@ -8,6 +8,10 @@ Messing around with Python
 - `./install.sh`
 
 ## Commands
+- Running Child_Parent_InFile script
+  - `python ./src/Child_Parent_InFile.py`
+- Running Child_Parent_InModule script
+  - `python ./src/Child_Parent_InModule.py`
 - Running py-test code
   - `python ./src/ParentChildSingleFile.py`
 - Testing py-test
@@ -17,9 +21,6 @@ Messing around with Python
 - Testing py-test with coverage generating a HTML coverage report
   - `pytest --cov --cov-report=html`
   - `start ./coverage_html_report/index.html`
-
-## Testing test app
-- `pytestpython ./src/ParentChildSingleFile.py`
 
 ---
 
