@@ -15,6 +15,6 @@ class Child(Parent):
         print(f" | Child  | run()")
         self.printMessage()
 
-
+# allow for command-line execution
 if __name__ == '__main__':
-    Child(message="Hello!")
+    Child(message="Hello from Command-Line")

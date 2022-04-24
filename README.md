@@ -17,11 +17,11 @@ Messing around with Python testing
 - Running py-test code
   - `python ./src/ParentChildSingleFile.py`
 - Testing py-test
-  - `pytest`
+  - `pytest -v`
 - Testing py-test with coverage
-  - `pytest --cov`
+  - `pytest -v --cov`
 - Testing py-test with coverage generating a HTML coverage report
-  - `pytest --cov --cov-report=html`
+  - `pytest -v --cov --cov-report=html`
   - `start ./coverage_html_report/index.html`
 
 ---
