@@ -1,8 +1,8 @@
 # py-test
 
 Messing around with Python testing
-- pytest
-- mocking modules
+- [pytest](https://pypi.org/project/pytest/)
+- Mocking a modules used as a Parent class 
 
 ## Getting Started
 
@@ -14,15 +14,14 @@ Messing around with Python testing
   - `python ./src/Child_Parent_InFile.py`
 - Running Child_Parent_InModule script
   - `python ./src/Child_Parent_InModule.py`
-- Running py-test code
-  - `python ./src/ParentChildSingleFile.py`
-- Testing py-test
-  - `pytest -v`
-- Testing py-test with coverage
-  - `pytest -v --cov`
-- Testing py-test with coverage generating a HTML coverage report
-  - `pytest -v --cov --cov-report=html`
-  - `start ./coverage_html_report/index.html`
+- Running Tests
+  - PyTest with Verbose
+    - `pytest -v`
+  - PyTest with Coverage ouput to Console
+    - `pytest -v --cov`
+  - PyTest with Coverage output as HTML
+    - `pytest -v --cov --cov-report=html`
+    - `start ./coverage_html_report/index.html`
 
 ---
 
