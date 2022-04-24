@@ -4,9 +4,24 @@ Messing around with Python
 
 ## Getting Started
 
-- git clone git@github.com:PhillipRC/py-test.git
-- ./install.sh
-- python ./src/MyApp.py
+- `git clone git@github.com:PhillipRC/py-test.git`
+- `./install.sh`
+
+## Commands
+- Running py-test code
+  - `python ./src/ParentChildSingleFile.py`
+- Testing py-test
+  - `pytest`
+- Testing py-test with coverage
+  - `pytest --cov`
+- Testing py-test with coverage generating a HTML coverage report
+  - `pytest --cov --cov-report=html`
+  - `start ./coverage_html_report/index.html`
+
+## Testing test app
+- `pytestpython ./src/ParentChildSingleFile.py`
+
+---
 
 # Handy Commands
 

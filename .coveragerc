@@ -1,0 +1,6 @@
+[run]
+source = src
+omit = src/*_test.py
+
+[html]
+directory = coverage_html_report
