@@ -1,10 +1,10 @@
 # Example of a parent class calling a child class method on initialization
 
-from ParentModule.Parent import Parent
+import ParentModule
 
 print(" ParentChildModules | loaded ")
 
-class Child(Parent):
+class Child(ParentModule.Parent):
     def run(self):
         """ called from the __init__ of the parent class """
         print(f" | Child  | run()")

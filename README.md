@@ -1,6 +1,8 @@
 # py-test
 
-Messing around with Python
+Messing around with Python testing
+- pytest
+- mocking modules
 
 ## Getting Started
 
