@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # python code coverage report
-./coverage_html_report
+coverage_html_report/
